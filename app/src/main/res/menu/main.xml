@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:enabled="true"
+        android:id="@+id/edit_profile"
+        android:title="Edit Profile"/>
+
+    <item android:title="Add Account"
+        android:enabled="true"
+        android:id="@+id/add_account"/>
+
+    <item android:title="Delete Account"
+        android:enabled="true"
+        android:id="@+id/delete_account"/>
+
+    <item android:title="Terms of Use"
+        android:enabled="true"
+        android:id="@+id/terms_of_use"/>
+</menu>

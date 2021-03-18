@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="5dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textusername"
+        android:textSize="20dp"/>
+
+        <Button
+            android:layout_below="@+id/textusername"
+            android:background="#33b5e5"
+            android:textColor="#ffffff"
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="View Profile" />
+
+    <TextView
+        android:layout_below="@+id/button"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp" />
+    <TextView
+        android:layout_below="@+id/textView"
+        android:id="@+id/textViewmobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_below="@+id/textViewmobile"
+        android:id="@+id/textViewemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp" />
+    <TextView
+        android:layout_below="@+id/textViewemail"
+        android:id="@+id/textViewproposal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp" />
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewproposal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:visibility="gone"/>/>
+    <Button
+        android:layout_below="@+id/progressBar"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        android:onClick="MessageDoctor"
+        android:background="#33b5e5"
+        android:textColor="#ffffff"
+        android:id="@+id/messagedoc"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Message Doctor" />
+    <android.support.design.widget.BottomNavigationView
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bottomnav"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="?android:attr/windowBackground"
+        app:itemBackground="@color/cardview_shadow_end_color"
+        app:itemIconTint="#000000"
+        app:itemTextColor="#000000"
+        app:menu="@menu/main_menu"></android.support.design.widget.BottomNavigationView>
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<HorizontalScrollView android:id="@+id/scrollView"
+    android:layout_marginTop="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbars="none"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+   <Button
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:text="Persistent
+depressive
+disorder"
+       android:textColor="#ffff"
+       android:background="@drawable/persistendepressive"
+       android:id="@+id/persistentdepression"
+       />
+    <Button
+        android:layout_marginLeft="10dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Post Partum
+Depression"
+        android:textColor="#ffff"
+        android:background="@drawable/postpartum"
+        android:id="@+id/postpartum"
+        />
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Bipolar Disorder"
+        android:textColor="#ffff"
+        android:background="@drawable/bipolar"
+        android:id="@+id/bipolarg"
+        />
+    <Button
+        android:layout_marginLeft="10dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:textColor="#ffff"
+        android:background="@drawable/riskfactors"
+        android:id="@+id/riskfactors"
+        />
+    <Button
+        android:layout_marginLeft="10dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Learn More"
+        android:textColor="#ffff"
+        android:background="@drawable/learnmore"
+        android:id="@+id/learnmore"
+        />
+</LinearLayout>
+</HorizontalScrollView>
+    <WebView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webview"
+        tools:ignore="WebViewLayout">
+    </WebView>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:title="Home"
+        android:icon="@drawable/homea"/>
+
+    <item
+        android:id="@+id/action_viewposts"
+        android:title="View Posts"
+        android:icon="@drawable/gridview"/>
+
+
+    <item android:title="Post"
+        android:id="@+id/action_post"
+        android:icon="@drawable/post"/>
+</menu>

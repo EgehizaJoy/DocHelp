@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+    <android.support.v7.widget.SearchView
+        android:id="@+id/serchview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.SearchView>
+       <GridView
+           android:layout_below="@+id/serchview"
+           android:id="@+id/gridview"
+           android:numColumns="3"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+       </GridView>
+    <android.support.design.widget.BottomNavigationView
+      android:layout_alignParentBottom="true"
+        android:id="@+id/bottomnav"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:background="?android:attr/windowBackground"
+        app:itemBackground="@color/cardview_shadow_end_color"
+        app:itemIconTint="#000000"
+        app:itemTextColor="#000000"
+        app:menu="@menu/main_menu"></android.support.design.widget.BottomNavigationView>
+</RelativeLayout>

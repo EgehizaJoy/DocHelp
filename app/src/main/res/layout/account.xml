@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp">
+
+    <TextView
+        android:fontFamily="casual"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="Daktari"
+        android:textColor="#33b5e5"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:onClick="LogIn"
+        android:layout_marginTop="20dp"
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#33b5e5"
+        android:text="Log In"
+        android:textSize="30dp"
+        android:textColor="#ffff"/>
+    <TextView
+        android:onClick="signUpasPatient"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="Sign Up as Patient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:onClick="signUpasDoctor"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="Sign Up as Doctor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+
